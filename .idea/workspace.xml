@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="" />
+    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Added the &quot;spring-boot-starter-web&quot; dependency.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,17 +41,28 @@
       <option name="presentableId" value="Default" />
       <updated>1708273621625</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added the &quot;spring-boot-starter-parent&quot; dependency">
+      <option name="closed" value="true" />
+      <created>1708275595580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708275595580</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added the &quot;spring-boot-starter-web&quot; dependency.">
+      <option name="closed" value="true" />
+      <created>1708275801497</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708275801497</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/icet/edu/book/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added the &quot;spring-boot-starter-parent&quot; dependency" />
+    <MESSAGE value="Added the &quot;spring-boot-starter-web&quot; dependency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the &quot;spring-boot-starter-web&quot; dependency." />
   </component>
 </project>
