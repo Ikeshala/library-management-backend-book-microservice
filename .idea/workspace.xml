@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Added the dependencies &quot;spring-boot-starter-data-jpa&quot; and &quot;mysql-connector-java&quot; to the project.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/controller/BookController.java" afterDir="false" />
+    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Added the ModelMapper dependency to the project.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/entity/BookEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/repository/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/impl/BookServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,6 +45,11 @@
     "onboarding.tips.debug.path": "D:/ICM104/8. Internet Technologies/WORKING/library-management-backend/library-management-backend-book-microservice/src/main/java/icet/edu/book/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="icet.edu.book.entity" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icet.edu.book.Main" />
@@ -125,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708279466299</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created the yml file for configuration.">
+      <option name="closed" value="true" />
+      <created>1708281417179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708281417179</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added the ModelMapper dependency to the project.">
+      <option name="closed" value="true" />
+      <created>1708285310623</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708285310623</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,6 +153,8 @@
     <MESSAGE value="Added Lombok dependency." />
     <MESSAGE value="Completed the implementation of the &quot;addBook&quot; method." />
     <MESSAGE value="Added the dependencies &quot;spring-boot-starter-data-jpa&quot; and &quot;mysql-connector-java&quot; to the project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the dependencies &quot;spring-boot-starter-data-jpa&quot; and &quot;mysql-connector-java&quot; to the project." />
+    <MESSAGE value="Created the yml file for configuration." />
+    <MESSAGE value="Added the ModelMapper dependency to the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the ModelMapper dependency to the project." />
   </component>
 </project>
