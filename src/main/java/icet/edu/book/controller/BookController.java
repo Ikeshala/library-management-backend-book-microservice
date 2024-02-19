@@ -18,10 +18,12 @@ public class BookController {
     public void addBook(@RequestBody Book book){
         service.addBook(book);
     }
+
     @GetMapping("/get")
     public Iterable<BookEntity> getBooks(){
         return service.getBooks();
     }
+
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<String> deleteBook(@PathVariable Long id) {
@@ -32,6 +34,11 @@ public class BookController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND)
                     .body("Book not found!");
         }
+    }
+
+    @GetMapping("search/{id}")
+    public Book getBookById(@PathVariable Long id){
+        return service.getBookId(id);
     }
 
 }

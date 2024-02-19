@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Implemented the GET API functionality.">
+    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Implemented the search functionality by ID.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/BookService.java" afterDir="false" />
@@ -161,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708321547522</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implemented the DELETE API functionality.">
+      <option name="closed" value="true" />
+      <created>1708323164499</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708323164499</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,6 +183,8 @@
     <MESSAGE value="Added the ModelMapper dependency to the project." />
     <MESSAGE value="Implemented the POST API functionality." />
     <MESSAGE value="Implemented the GET API functionality." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the GET API functionality." />
+    <MESSAGE value="Implemented the DELETE API functionality." />
+    <MESSAGE value="Implemented the search functionality by ID." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the search functionality by ID." />
   </component>
 </project>
