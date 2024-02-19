@@ -6,4 +6,5 @@ import icet.edu.book.entity.BookEntity;
 public interface BookService {
     void addBook(Book book);
     Iterable<BookEntity> getBooks();
+    boolean deleteBook(Long id);
 }

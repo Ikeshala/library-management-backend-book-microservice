@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Implemented the POST API functionality.">
+    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Implemented the GET API functionality.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/BookService.java" afterDir="false" />
@@ -153,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708287565424</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implemented the GET API functionality.">
+      <option name="closed" value="true" />
+      <created>1708321547522</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708321547522</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,6 +174,7 @@
     <MESSAGE value="Created the yml file for configuration." />
     <MESSAGE value="Added the ModelMapper dependency to the project." />
     <MESSAGE value="Implemented the POST API functionality." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the POST API functionality." />
+    <MESSAGE value="Implemented the GET API functionality." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the GET API functionality." />
   </component>
 </project>

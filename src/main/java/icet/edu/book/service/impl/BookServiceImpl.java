@@ -29,4 +29,12 @@ public class BookServiceImpl implements BookService {
     public Iterable<BookEntity> getBooks() {
         return repository.findAll();
     }
+
+    @Override
+    public boolean deleteBook(Long id) {
+        if (repository.existsById(id)) {
+            repository.deleteById(id);
+            return true;
+        }else { return false;}
+    }
 }
