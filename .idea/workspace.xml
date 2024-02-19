@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Implemented the search functionality by ID.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708323164499</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implemented the search functionality by ID.">
+      <option name="closed" value="true" />
+      <created>1708324152077</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708324152077</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
