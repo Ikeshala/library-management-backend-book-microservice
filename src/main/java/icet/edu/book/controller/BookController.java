@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/book")
 @RequiredArgsConstructor
+@CrossOrigin
 public class BookController {
     final BookService service;
     @PostMapping("/add")

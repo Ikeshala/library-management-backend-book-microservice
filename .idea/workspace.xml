@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Implemented the search functionality by ID.">
+    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Added Swagger using the `springdoc-openapi-starter-webmvc-ui` dependency.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/controller/BookController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/ICM104/8. Internet Technologies/WORKING/library-management-backend/library-management-backend-borrower-microservice",
+    "last_opened_file_path": "D:/ICM104/11. Project Development/WORKING/library-management-backend/library-management-backend-book-microservice",
     "onboarding.tips.debug.path": "D:/ICM104/8. Internet Technologies/WORKING/library-management-backend/library-management-backend-book-microservice/src/main/java/icet/edu/book/Main.java"
   }
 }]]></component>
@@ -175,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708324152077</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Swagger using the `springdoc-openapi-starter-webmvc-ui` dependency.">
+      <option name="closed" value="true" />
+      <created>1708327302347</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708327302347</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,6 +200,7 @@
     <MESSAGE value="Implemented the GET API functionality." />
     <MESSAGE value="Implemented the DELETE API functionality." />
     <MESSAGE value="Implemented the search functionality by ID." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the search functionality by ID." />
+    <MESSAGE value="Added Swagger using the `springdoc-openapi-starter-webmvc-ui` dependency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Swagger using the `springdoc-openapi-starter-webmvc-ui` dependency." />
   </component>
 </project>
