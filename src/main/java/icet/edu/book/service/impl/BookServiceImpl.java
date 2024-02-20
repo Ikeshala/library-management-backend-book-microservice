@@ -4,10 +4,9 @@ import icet.edu.book.dto.Book;
 import icet.edu.book.entity.BookEntity;
 import icet.edu.book.repository.BookRepository;
 import icet.edu.book.service.BookService;
+import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -17,7 +16,7 @@ import java.util.Optional;
 public class BookServiceImpl implements BookService {
     final BookRepository repository;
     ModelMapper mapper;
-    @Bean
+    @PostConstruct
     public void setup(){
         this.mapper=new ModelMapper();
     }

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="Added @CrossOrigin annotation to enable cross-origin resource sharing (CORS).">
+    <list default="true" id="ae92692b-f1aa-45c3-be1d-6a0911448b01" name="Changes" comment="The &quot;id&quot; field of type &quot;Long&quot; has been added to the Book DTO as a private attribute.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/dto/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/dto/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/icet/edu/book/service/impl/BookServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/ICM104/11. Project Development/WORKING/Library_Management_System",
+    "last_opened_file_path": "D:/ICM104/11. Project Development/WORKING/library-management-backend/library-management-backend-borrower-microservice",
     "onboarding.tips.debug.path": "D:/ICM104/8. Internet Technologies/WORKING/library-management-backend/library-management-backend-book-microservice/src/main/java/icet/edu/book/Main.java"
   }
 }]]></component>
@@ -191,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708340701568</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="The &quot;id&quot; field of type &quot;Long&quot; has been added to the Book DTO as a private attribute.">
+      <option name="closed" value="true" />
+      <created>1708351342970</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708351342970</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,6 +217,7 @@
     <MESSAGE value="Implemented the search functionality by ID." />
     <MESSAGE value="Added Swagger using the `springdoc-openapi-starter-webmvc-ui` dependency." />
     <MESSAGE value="Added @CrossOrigin annotation to enable cross-origin resource sharing (CORS)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added @CrossOrigin annotation to enable cross-origin resource sharing (CORS)." />
+    <MESSAGE value="The &quot;id&quot; field of type &quot;Long&quot; has been added to the Book DTO as a private attribute." />
+    <option name="LAST_COMMIT_MESSAGE" value="The &quot;id&quot; field of type &quot;Long&quot; has been added to the Book DTO as a private attribute." />
   </component>
 </project>
